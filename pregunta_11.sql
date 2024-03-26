@@ -38,4 +38,10 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-SELECT YEAR(c14) AS "YEAR", COUNT(*) AS "CANT" FROM tbl1 WHERE YEAR(c14) = 2018
+SELECT 
+    YEAR(c14) AS "YEAR",
+    COUNT(*) AS CANT
+FROM 
+    tbl1
+WHERE 
+    int(YEAR(c14)) = 2018;
