@@ -38,3 +38,6 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
+SELECT COUNT(*) AS total_registros_2018
+FROM tbl1
+WHERE YEAR(c14) = 2018
