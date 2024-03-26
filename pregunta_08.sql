@@ -41,7 +41,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
-SELECT YEAR(c23) AS ano,
-       AVG(c21) AS promedio_c21_por_ano
-FROM tbl2
-GROUP BY YEAR(c23)
+SELECT YEAR(c23) AS anno,  AVG(c21) AS promedio_c21_por_ano FROM tbl2 GROUP BY YEAR(c23)
